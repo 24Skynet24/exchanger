@@ -1,0 +1,22 @@
+.ex_input {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 15rem;
+    max-width: 100%;
+}
+
+.ex_input span {
+    font-size: 1rem;
+    line-height: 130%;
+    color: var(--var-white);
+}
+
+.ex_input input {
+    width: 100%;
+    border: 1px none;
+    border-radius: 12px;
+    padding: .8rem 1rem;
+    font-size: 1.125rem;
+    line-height: 150%;
+}
