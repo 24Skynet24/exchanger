@@ -1,6 +1,6 @@
 import "./exinput.css"
 
-export default function ExInput( {params, title} ) {
+export default function ExInput( {params, title, change} ) {
     return (
         <>
             <article className="ex_input">
@@ -9,7 +9,9 @@ export default function ExInput( {params, title} ) {
                     type="number"
                     name={params.name}
                     placeholder={params.placeholder}
-                    value={params.value}
+                    value={+params.value}
+                    min={0}
+                    onChange={ e => change(+e.target.value)}
                 />
             </article>
         </>

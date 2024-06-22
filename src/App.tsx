@@ -1,4 +1,4 @@
-import ExChanger from "./components/ExChanger/index";
+import {ExChanger} from "./components/ExChanger/index";
 
 function App() {
   return (
